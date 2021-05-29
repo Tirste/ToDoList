@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+*,*:focus,*:hover{
+    outline:none;
+}
+
+body {
+    background: #f3f3f3;
+    margin: 0 auto;
+    font-family: 'Roboto Slab', arial, helvetica, sans-serif;
+}
+
+header {
+    width: 100vh;
+    color: #fcc000;
+    font-size: 2em;
+    padding: 20px 0px 10px 30px;
+}
+
+main {
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.box i {
+  padding: 20px 5px;
+}
+
+.box-title {
+    background: none;
+    font-size: 24px;
+    font-family: 'Roboto Slab', arial, helvetica, sans-serif;
+    border: none;
+    padding: 0px 0px 20px 0px;
+    width: 100%;
+}
+
+.line-input-form {
+    display: flex;
+}
+
+.line-input {
+    flex: 1;
+    background: #DFDFDF;
+    margin: 0px 10px 0px 0px;
+    color: #575757;
+    height: 25px;
+    border: none;
+    border-radius: 10px;   
+    padding: 20px 10px;
+}
+
+
+.button-reverse {
+    background: #DFDFDF;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    margin: 15px 5px;
+ }
+
+.button-note-add {
+    background: #fcc000;
+    margin: 20px 10px;
+    width: 50px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    padding: 15px 0px;
+    margin-left: auto;
+  order: 2;
+}
+
+.button-line-add {
+    background: #fcc000;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    height: 20px;
+    margin: 10px 0px 0px 0px;
+    font-size: 16px;
+    border: none;
+}
+
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  padding: 0px 0px 10px 0px;
+  border-bottom: 1px solid #fcc000;
+  margin: 0px 0px 10px 0px;
+}
+
+  .checked {
+    text-decoration: line-through!important;
+    font-weight: normal!important;
+    font-style: normal!important;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    float: right;
+    background-color: #e0e0e0;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+  }
+  
+  input.chk-btn {
+    display: none;
+  }
+  input.chk-btn + label {
+    padding: 4px 4px;
+    cursor: pointer;
+    border-radius: 5px;
+ 
+  }
+  input.chk-btn:not(:checked) + label:hover {
+   
+  }
+  input.chk-btn + label:active,
+  input.chk-btn:checked + label {
+    color: #fcc000;
+    box-shadow: 1px 1px 3px #010101;
+  }
